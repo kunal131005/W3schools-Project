@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 100%;
+        }
+
+        .himg1 {
+            width: 20px;
+        }
+
+        .himg2 {
+            width: 30px;
+        }
+
+        .hdiv1 {
+            padding: 5px;
+        }
+
+        header {
+            display: flex;
+            width: 100vw;
+
+        }
+
+        header a {
+            text-decoration: none;
+        }
+
+        header select:hover {
+            color: white;
+            background-color: green;
+            border-radius: 100px;
+        }
+
+        header select {
+            border: 1px solid white;
+            padding: 4px;
+        }
+
+        .hdiv2 img {
+            width: 20px;
+
+        }
+
+        .hdiv2 input {
+            border: 1px solid white;
+            padding-left: 10px;
+
+        }
+
+        .hdiv2 {
+            border: 1px solid grey;
+            border-radius: 50px;
+            width: 200px;
+            display: flex;
+            padding: 5px;
+            height: 20px;
+            position: relative;
+            top: 10px;
+        }
+
+        .hdiv3 {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            left: 200px;
+
+        }
+
+        .hdiv3 div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hdiv3 button {
+            border: 1px solid white;
+            background-color: white;
+            border-radius: 100px;
+            padding: 5px;
+        }
+
+        .hdiv3 button:hover {
+            background-color: grey;
+        }
+
+        .main {
+            width: 100%;
+            height: 500px;
+            background-image: url(background_in_space.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .mdiv1 {
+            position: relative;
+            left: 900px;
+            top: 150px;
+        }
+
+        .mdiv2 {
+            display: flex;
+        }
+
+        .mdiv2 a {
+            color: white;
+            margin: 15px;
+            position: relative;
+            bottom: 175px;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-size: 10px;
+        }
+
+        .mdiv2 a:hover {
+            background-color: black;
+        }
+
+        .mimg1 {
+            width: 20px;
+            padding-left: 200px;
+        }
+
+        .mdiv3 div {
+            border: 1px solid white;
+            border-radius: 20px;
+            background-color: white;
+            width: 400px;
+            display: flex;
+            padding: 10px;
+            height: 19px;
+            margin-bottom: 30px;
+            position: relative;
+            left: 370px;
+        }
+
+        .mdiv3 h1 {
+            font-size: 50px;
+            color: white;
+            font-family: sans-serif;
+        }
+
+        .mdiv3 h3 {
+            color: rgb(237, 205, 145);
+            font-family: sans-serif;
+        }
+
+        .mdiv3 {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            bottom: 100px;
+
+        }
+
+        .mdiv3 input {
+            border: 1px solid white;
+
+
+        }
+
+        .mdiv3 a {
+
+            color: white;
+            font-family: sans-serif;
+        }
+
+        .mdiv3 a:hover {
+            color: rgb(237, 205, 145);
+        }
+
+        .main2 {
+            background-color: #D9EEE1;
+            font-family: sans-serif;
+            padding-top: 100px;
+            width: 100%;
+            height: 350px;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+
+        }
+
+        .main3 {
+            background-color: #FFF4A3;
+            font-family: sans-serif;
+            padding-top: 100px;
+            width: 100%;
+            height: 350px;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+
+        }
+
+        .main4 {
+            background-color: #282A35;
+            font-family: sans-serif;
+            padding-top: 100px;
+            width: 100%;
+            height: 350px;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+
+        }
+
+        .main5 {
+            background-color: #F3ECEA;
+            font-family: sans-serif;
+            padding-top: 100px;
+            width: 100%;
+            height: 250px;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+
+        .main6 {
+            background-color: #96D4D4;
+            font-family: sans-serif;
+            padding-top: 100px;
+            width: 100%;
+            height: 250px;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+
+        .ndiv1 {
+            text-align: center;
+            position: relative;
+            bottom: 100px;
+
+        }
+
+        .ndiv1 h1 {
+            font-size: 100px;
+        }
+
+        .ndiv1 p {
+            position: relative;
+            bottom: 60px;
+        }
+
+        .ndiv1 div {
+            padding: 10px;
+            position: relative;
+            bottom: 70px;
+        }
+
+        .b1:hover {
+            background-color: #038052cb;
+
+        }
+
+        .b2:hover {
+            background-color: #b4ab62;
+        }
+
+        .b3:hover {
+            background-color: black;
+        }
+
+        .b4:hover {
+            background-color: hsl(353, 54%, 78%);
+        }
+
+        .ndiv2 img {
+            width: 300px;
+
+        }
+
+        .ndiv2 {
+            position: relative;
+            bottom: 60px;
+        }
+
+        .main7 {
+            background-color: #282A35;
+            height: 2100px;
+        }
+
+        .kdiv1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 80px 80px 80px 80px 80px 80px;
+            padding-top: 100px;
+            justify-content: space-around;
+            padding-left: 100px;
+        }
+
+        .mk1 {
+            border: 1px solid #ffc0c7;
+            border-radius: 10px;
+            background-color: #FFC0C7;
+            height: 200px;
+            width: 400px;
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        .mk2 {
+            border: 1px solid #fff4a3;
+            border-radius: 10px;
+            background-color: #fff4a3;
+            height: 200px;
+            width: 400px;
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        .mk3 {
+            border: 1px solid #F3ECEA;
+            border-radius: 10px;
+            background-color: #F3ECEA;
+            height: 200px;
+            width: 400px;
+            text-align: center;
+            font-family: sans-serif;
+            margin-top: 200px;
+        }
+
+        .mk4 {
+            border: 1px solid #D9EEE1;
+            border-radius: 10px;
+            background-color: #D9EEE1;
+            height: 200px;
+            width: 400px;
+            text-align: center;
+            font-family: sans-serif;
+            margin-top: 200px;
+        }
+
+        .mk5 {
+            border: 1px solid #96d4d4;
+            border-radius: 10px;
+            background-color: #96d4d4;
+            height: 200px;
+            width: 400px;
+            text-align: center;
+            font-family: sans-serif;
+            margin-top: 400px;
+        }
+
+        .mk6 {
+            border: 1px solid #e7e9eb;
+            border-radius: 10px;
+            background-color: #e7e9eb;
+            height: 200px;
+            width: 400px;
+            text-align: center;
+            font-family: sans-serif;
+            margin-top: 400px;
+        }
+
+        .mk7 {
+            border: 1px solid #FFC0C7;
+            border-radius: 10px;
+            background-color: #ffc0c7;
+            height: 100px;
+            width: 400px;
+            text-align: center;
+            font-family: sans-serif;
+            margin-top: 600px;
+            padding-top: 50px;
+        }
+
+        .mk8 {
+            border: 1px solid #fff4a3;
+            border-radius: 10px;
+            background-color: #fff4a3;
+            height: 100px;
+            width: 400px;
+            text-align: center;
+            font-family: sans-serif;
+            margin-top: 600px;
+            padding-top: 50px;
+        }
+
+        .kdiv2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 80px 80px 80px 80px 80px 80px 80px 80px 80px;
+            padding-top: 100px;
+            justify-content: space-around;
+            padding-left: 100px;
+            margin-top: 450px;
+        }
+
+        .mk9 {
+            width: 100px;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 10px;
+            padding: 20px;
+            margin-top: 10px;
+        }
+
+        .kdiv3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 80px 80px;
+            justify-content: space-around;
+            padding-left: 100px;
+            padding-top: 30px;
+            font-family: sans-serif;
+
+        }
+
+        .mk10 {
+            width: 370px;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 10px;
+            padding: 15px;
+            margin-top: 10px;
+        }
+
+        .main8 {
+            background-color: #D9EEE1;
+            font-family: sans-serif;
+            padding-top: 100px;
+            width: 100%;
+            height: 350px;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+
+        }
+
+        .main9 {
+            background-color: #282a35;
+            font-family: sans-serif;
+            padding-top: 100px;
+            width: 100%;
+            height: 350px;
+            display: block;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .main10 {
+            background-color: #F3ECEA;
+            font-family: sans-serif;
+            padding-top: 50px;
+            width: 100%;
+            height: 400px;
+            display: block;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .main11 {
+            background-color: #96D4D4;
+            font-family: sans-serif;
+            padding-top: 50px;
+            width: 100%;
+            height: 400px;
+            display: block;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .main12 {
+            background-color: #282a35;
+            font-family: sans-serif;
+            padding-top: 50px;
+            width: 100%;
+            height: 300px;
+            display: block;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .kdiv4 {
+
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 80px 80px;
+            justify-content: space-around;
+            padding-left: 100px;
+            padding-top: 30px;
+            font-family: sans-serif;
+
+        
+        }
+        footer{
+            background-image: url(background_in_space.jpg);
+            padding-top: 100px;
+            min-height: max-content;
+        }
+        .main13{
+            
+            background-color: white;
+            font-family: sans-serif;
+            padding-top: 50px;
+            width: 100%;
+            height: 500px;
+            display: block;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+       
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="hdiv1">
+            <a href="https://www.w3schools.com/" style="cursor: pointer;">
+                <img src="images.png" alt="main" class="himg2">
+            </a>
+            <select name="Tutorials" id="" style="cursor: pointer;">
+                <option value="Tutorials">Tutorials</option>
+            </select>
+            <select name="Exercies" id="" style="cursor: pointer;">
+                <option value="Exercies">Exercies</option>
+            </select>
+            <select name="Certificates" id="" style="cursor: pointer;">
+                <option value="Certificates">Certificates</option>
+            </select>
+            <select name="Services" id="" style="cursor: pointer;">
+                <option value="Services">Services</option>
+            </select>
+        </div>
+        <div class="hdiv2">
+            <input type="search" placeholder="Search...">
+            <img src="370082_find_search_zoom_magnifier_view_icon.png" alt="seacrh icon">
+        </div>
+        <div class="hdiv3">
+
+            <div> <button type="submit"><img src="code.png" class="himg1" style="cursor: pointer;"> Spaces </button>
+            </div>
+            <div><button type="submit"><img src="basket.jpeg" class="himg1" style="cursor: pointer;">Get
+                    Certified</button></div>
+            <button type="submit" style="cursor: pointer;">My W3Schools</button>
+            <div><button type="submit"><img src="images (1).jpeg" class="himg2" style="cursor: pointer;"></button></div>
+        </div>
+
+    </header>
+    <div class="main">
+        <div class="mdiv1">
+            <img src="lynx_in_space.jpg" alt="astro">
+        </div>
+
+        <div class="mdiv2">
+            <a href="https://www.w3schools.com/html/default.asp" style="cursor: pointer;">HTML</a>
+            <a href="https://www.w3schools.com/css/default.asp" style="cursor: pointer;">CSS</a>
+            <a href="https://www.w3schools.com/js/default.asp" style="cursor: pointer;">JAVASCRIPT</a>
+            <a href="https://www.w3schools.com/sql/default.asp" style="cursor: pointer;">SQL</a>
+            <a href="https://www.w3schools.com/python/default.asp" style="cursor: pointer;">PYTHON</a>
+            <a href="https://www.w3schools.com/java/default.asp" style="cursor: pointer;">JAVA</a>
+            <a href="https://www.w3schools.com/php/default.asp" style="cursor: pointer;">PHP</a>
+            <a href="https://www.w3schools.com/howto/default.asp" style="cursor: pointer;">HOW </a>
+            <a href="https://www.w3schools.com/w3css/default.asp" style="cursor: pointer;">W3.CSS</a>
+            <a href="https://www.w3schools.com/c/index.php" style="cursor: pointer;">C</a>
+            <a href="https://www.w3schools.com/cpp/default.asp" style="cursor: pointer;">C++</a>
+            <a href="https://www.w3schools.com/cs/index.php" style="cursor: pointer;">C#</a>
+            <a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp" style="cursor: pointer;">BOOTSTRAP</a>
+            <a href="https://www.w3schools.com/react/default.asp" style="cursor: pointer;">REACT</a>
+            <a href="https://www.w3schools.com/mysql/default.asp" style="cursor: pointer;">MYSQL</a>
+            <a href="https://www.w3schools.com/jquery/default.asp" style="cursor: pointer;">JQUERY</a>
+            <a href="https://www.w3schools.com/excel/index.php" style="cursor: pointer;">EXCEL</a>
+            <a href="https://www.w3schools.com/xml/default.asp" style="cursor: pointer;">XML</a>
+            <a href="https://www.w3schools.com/django/index.php" style="cursor: pointer;">DJANGO</a>
+            <a href="https://www.w3schools.com/python/numpy/default.asp" style="cursor: pointer;">NUMPY</a>
+
+        </div>
+        <div class="mdiv3">
+            <h1>Learn to Code</h1>
+            <h3>With the world's largest web developer site.</h3>
+            <div>
+                <input type="search" placeholder="Search our tutorials">
+                <img src="370082_find_search_zoom_magnifier_view_icon.png" alt="" class="mimg1">
+            </div>
+            <a href="https://www.w3schools.com/where_to_start.asp">Not Sure Where To Begin?</a>
+
+        </div>
+
+
+    </div>
+    <div class="main2">
+        <div class="ndiv1">
+            <h1>HTML</h1>
+            <p>The language for building web pages</p>
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+                <a href="https://www.w3schools.com/html/default.asp" class="b1"><button type="submit"
+                        style="border: 1px solid #04AA6d;background-color: #04AA6d;color: white;text-align: center;border-radius: 100px;width: 150px;padding: 6px;cursor: pointer;">Learn
+                        HTML</button></a>
+                <a href="https://www.w3schools.com/videos/index.php" class="b2"><button type="submit"
+                        style="border: 1px solid #FFF4A3;background-color: #FFF4A3;color: black;text-align: center;border-radius: 100px;width: 150px;padding: 6px;cursor: pointer;">Video
+                        Tutorials</button></a>
+                <a href="https://www.w3schools.com/tags/default.asp" class="b3"><button type="submit"
+                        style="border: 1px solid black;background-color:black;color: white;text-align: center;border-radius: 100px;width: 150px;padding: 6px;cursor: pointer;">HTML
+                        Reference</button></a>
+                <a href="https://campus.w3schools.com/collections/certifications/products/html-certificate"
+                    class="b4"><button type="submit"
+                        style="border: 1px solid #FFC0C7;background-color: #FFC0C7;color: black;text-align: center;border-radius: 100px;width: 150px;padding: 6px;cursor: pointer;"
+                        class="b4">Get
+                        Certified</button></a>
+            </div>
+        </div>
+        <div class="ndiv2">
+            <img src="Screenshot 2024-11-02 212837.png" alt="">
+        </div>
+
+    </div>
+    <div class="main3">
+        <div class="ndiv1">
+            <h1>CSS</h1>
+            <p>The language for styling web pages</p>
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+                <a href="https://www.w3schools.com/css/default.asp" class="b1"><button type="submit"
+                        style="border: 1px solid #04AA6d;background-color: #04AA6d;color: white;text-align: center;border-radius: 100px;width: 150px;padding: 6px;cursor: pointer;">Learn
+                        CSS</button></a>
+                <a href="https://www.w3schools.com/cssref/index.php" class="b3"><button type="submit"
+                        style="border: 1px solid black;background-color:black;color: white;text-align: center;border-radius: 100px;width: 150px;padding: 6px;cursor: pointer;">CSS
+                        Reference</button></a>
+                <a href="https://campus.w3schools.com/collections/certifications/products/css-certificate"
+                    class="b4"><button type="submit"
+                        style="border: 1px solid #FFC0C7;background-color: #FFC0C7;color: black;text-align: center;border-radius: 100px;width: 150px;padding: 6px;cursor: pointer;"
+                        class="b4">Get
+                        Certified</button></a>
+            </div>
+        </div>
+        <div class="ndiv2">
+            <img src="Screenshot 2024-11-02 214154.png" alt="">
+        </div>
+
+    </div>
+    <div class="main4">
+        <div class="ndiv1">
+            <h1 style="color: white;font-size: 60px;padding-top: 10px;">JavaScript</h1>
+            <p style="color: white;padding-top: 30px;">The language for programming web pages</p>
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+                <a href="https://www.w3schools.com/js/default.asp" class="b1"><button type="submit"
+                        style="border: 1px solid #04AA6d;background-color: #04AA6d;color: white;text-align: center;border-radius: 100px;width: 180px;padding: 6px;cursor: pointer;">Learn
+                        JavaScript</button></a>
+                <a href="https://www.w3schools.com/jsref/default.asp" class="b3"><button type="submit"
+                        style="border: 1px solid white ;background-color:white;color: black;text-align: center;border-radius: 100px;width: 180px;padding: 6px;cursor: pointer;">JavaScript
+                        Reference</button></a>
+                <a href="https://campus.w3schools.com/collections/certifications/products/javascript-certificate"
+                    class="b4"><button type="submit"
+                        style="border: 1px solid #FFC0C7;background-color: #FFC0C7;color: black;text-align: center;border-radius: 100px;width: 180px;padding: 6px;cursor: pointer;"
+                        class="b4">Get
+                        Certified</button></a>
+            </div>
+        </div>
+        <div class="ndiv2">
+            <img src="Screenshot 2024-11-03 093907.png" alt="">
+        </div>
+
+    </div>
+    <div class="main5">
+        <div class="ndiv1">
+            <h1 style="color: black;font-size: 60px;padding-top: 10px;">Python</h1>
+            <p style="color: black;padding-top: 30px;">A popular programming language</p>
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+                <a href="https://www.w3schools.com/js/default.asp" class="b1"><button type="submit"
+                        style="border: 1px solid #04AA6d;background-color: #04AA6d;color: white;text-align: center;border-radius: 100px;width: 160px;padding: 6px;cursor: pointer;">Learn
+                        Python</button></a>
+                <a href="https://www.w3schools.com/jsref/default.asp" class="b3"><button type="submit"
+                        style="border: 1px solid black ;background-color:black;color: white;text-align: center;border-radius: 100px;width: 160px;padding: 6px;cursor: pointer;">Python
+                        Reference</button></a>
+                <a href="https://campus.w3schools.com/collections/certifications/products/javascript-certificate"
+                    class="b4"><button type="submit"
+                        style="border: 1px solid #FFC0C7;background-color: #FFC0C7;color: black;text-align: center;border-radius: 100px;width: 160px;padding: 6px;cursor: pointer;"
+                        class="b4">Get
+                        Certified</button></a>
+            </div>
+        </div>
+        <div class="ndiv2">
+            <img src="Screenshot 2024-11-03 094913.png" alt="">
+        </div>
+
+    </div>
+    <div class="main6">
+        <div class="ndiv1">
+            <h1 style="color: black;font-size: 60px;padding-top: 10px;">SQL</h1>
+            <p style="color: black;padding-top: 30px;">A language for accessing databases</p>
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+                <a href="https://www.w3schools.com/js/default.asp" class="b1"><button type="submit"
+                        style="border: 1px solid #04AA6d;background-color: #04AA6d;color: white;text-align: center;border-radius: 100px;width: 160px;padding: 6px;cursor: pointer;">Learn
+                        SQL</button></a>
+                <a href="https://www.w3schools.com/jsref/default.asp" class="b3"><button type="submit"
+                        style="border: 1px solid black ;background-color:black;color: white;text-align: center;border-radius: 100px;width: 160px;padding: 6px;cursor: pointer;">SQL
+                        Reference</button></a>
+                <a href="https://campus.w3schools.com/collections/certifications/products/javascript-certificate"
+                    class="b4"><button type="submit"
+                        style="border: 1px solid #FFC0C7;background-color: #FFC0C7;color: black;text-align: center;border-radius: 100px;width: 160px;padding: 6px;cursor: pointer;"
+                        class="b4">Get
+                        Certified</button></a>
+            </div>
+        </div>
+        <div class="ndiv2">
+            <img src="Screenshot 2024-11-03 095607.png" alt="">
+        </div>
+
+    </div>
+    <div class="main7">
+        <div class="kdiv1">
+            <div class="mk1">
+                <h2>PHP</h2>
+                <h5 style="color: #3a3a3a;">A web server programming language</h5>
+                <a href="https://www.w3schools.com/php/default.asp"><button type="submit"
+                        style="border: 1px solid black;background-color: black;color: white; border-radius: 100px;width: 150px;padding: 10px;margin: 20px;cursor: pointer;">Learn
+                        PHP</button></a>
+            </div>
+            <div class="mk2">
+                <h2>jQuery</h2>
+                <h5 style="color: #3a3a3a;">A JS library for developing web pages</h5>
+                <a href="https://www.w3schools.com/jquery/default.asp"><button type="submit"
+                        style="border: 1px solid black;background-color: black;color: white; border-radius: 100px;width: 150px;padding: 10px;margin: 20px;cursor: pointer;">Learn
+                        jQuery</button></a>
+            </div>
+            <div class="mk3">
+                <h2>Java</h2>
+                <h5 style="color: #3a3a3a;">A programming language</h5>
+                <a href="https://www.w3schools.com/java/default.asp"><button type="submit"
+                        style="border: 1px solid black;background-color: black;color: white; border-radius: 100px;width: 150px;padding: 10px;margin: 20px;cursor: pointer;">Learn
+                        Java</button></a>
+            </div>
+            <div class="mk4">
+                <h2>C++</h2>
+                <h5 style="color: #3a3a3a;">A programming language</h5>
+                <a href="https://www.w3schools.com/cpp/default.asp"><button type="submit"
+                        style="border: 1px solid black;background-color: black;color: white; border-radius: 100px;width: 150px;padding: 10px;margin: 20px;cursor: pointer;">Learn
+                        C++</button></a>
+            </div>
+            <div class="mk5">
+                <h2>W3.CSS</h2>
+                <h5 style="color: #3a3a3a;">A CSS framework for faster and better responsive web pages</h5>
+                <a href="https://www.w3schools.com/w3css/default.asp"><button type="submit"
+                        style="border: 1px solid black;background-color: black;color: white; border-radius: 100px;width: 150px;padding: 10px;margin: 20px;cursor: pointer;">Learn
+                        W3.CSS</button></a>
+            </div>
+            <div class="mk6">
+                <h2>Bootstrap</h2>
+                <h5 style="color: #3a3a3a;">A CSS framework for designing better web pages</h5>
+                <a href="https://www.w3schools.com/w3css/default.asp"><button type="submit"
+                        style="border: 1px solid black;background-color: black;color: white; border-radius: 100px;width: 150px;padding: 10px;margin: 20px;cursor: pointer;">Learn
+                        Bootstrap</button></a>
+            </div>
+            <div class="mk7">
+                <a href="https://www.w3schools.com/c/index.php"
+                    style="text-decoration: none;color:black;cursor: pointer;">
+                    <h2>C</h2>
+                </a>
+            </div>
+            <div class="mk8">
+                <a href="https://www.w3schools.com/cs/index.php"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>C#</h2>
+                </a>
+            </div>
+
+
+        </div>
+        <div class="kdiv2">
+            <div class="mk9" style="border: 1px solid #F3ECEA;background-color: #F3ECEA;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>R</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #d9eee1;background-color: #d9eee1;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>Kotlin</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #96d4d4;background-color: #96d4d4;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>Node.js</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #FFC0C7;background-color: #ffc0c7;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>React</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #fff4a3;background-color: #Fff4a3;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>JSON</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #F3ECEA;background-color: #F3ECEA;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>Vue</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #D9EEE1;background-color: #D9EEE1;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>MySQL</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #96D4D4;background-color: #96D4D4;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>XML</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #Ffc0c7;background-color: #FFC0C7;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>Sass</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #FFF4A3;background-color: #Fff4a3;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>Icons</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #F3ECEA;background-color: #F3ECEA;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>RWD</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #d9eee1;background-color: #d9eee1;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>Graphics</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #96D4D4;background-color: #96D4D4;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>SVG</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #Ffc0c7;background-color: #FFC0C7;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>Canvas</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #FFF4A3;background-color: #FFF4A3;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>Raspberry Pi</h2>
+                </a>
+            </div>
+            <div class="mk9"
+                style="border: 1px solid #F3ECEA;background-color: #F3ECEA;border-radius: 10px;font-size: 9px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>Cyber Security</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #d9eee1;background-color: #d9eee1;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>colors</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #96D4D4;background-color: #96D4D4;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>Git</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #FFC0C7;background-color: #Ffc0c7;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>Matplotlib</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #Fff4a3;background-color: #Fff4a3;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>NumPy</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #F3ECEA;background-color: #F3ECEA;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>Pandas</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #d9eee1;background-color: #d9eee1;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>SciPy</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #96D4D4;background-color: #96D4D4;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>ASP</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #FFC0C7;background-color: #Ffc0c7;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>AngularJS</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #Fff4a3;background-color: #Fff4a3;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>AppML</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #F3ECEA;background-color: #F3ECEA;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>Go</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #d9eee1;background-color: #d9eee1;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>TypeScript</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #96D4D4;background-color: #96D4D4;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>Django</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #FFC0C7;background-color: #Ffc0c7;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>MongoDB</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #Fff4a3;background-color: #Fff4a3;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>Statistics</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #F3ECEA;background-color: #F3ECEA;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>Data Science</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #d9eee1;background-color: #d9eee1;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>typing Speed</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #96D4D4;background-color: #96D4D4;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>HowTo</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #FFC0C7;background-color: #Ffc0c7;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>Code Game</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #Fff4a3;background-color: #Fff4a3;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>Spaces</h2>
+                </a>
+            </div>
+            <div class="mk9" style="border: 1px solid #F3ECEA;background-color: #F3ECEA;border-radius: 10px;">
+                <a href="https://www.w3schools.com/r/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>PostgreSQL</h2>
+                </a>
+            </div>
+
+
+        </div>
+        <div class="kdiv3">
+            <div class="mk10" style="border: 1px solid #96D4D4;background-color: #96D4D4;border-radius: 10px;">
+                <a href="https://www.w3schools.com/excel/index.php"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>Excel</h2>
+                </a>
+            </div>
+            <div class="mk10" style="border: 1px solid #Fff4a3;background-color: #Fff4a3;border-radius: 10px;">
+                <a href="https://www.w3schools.com/dsa/index.php"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>DSA-Data Structure and Algorithms</h2>
+                </a>
+            </div>
+            <div class="mk10" style="border: 1px solid #FFC0C7;background-color: #Ffc0c7;border-radius: 10px;">
+                <a href="https://www.w3schools.com/python/python_ml_getting_started.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>Machine Learning</h2>
+                </a>
+            </div>
+            <div class="mk10" style="border: 1px solid #F3ECEA;background-color: #F3ECEA;border-radius: 10px;">
+                <a href="https://www.w3schools.com/ai/default.asp"
+                    style="text-decoration: none;color: black;cursor: pointer;">
+                    <h2>Artificial Intelligence</h2>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <div class="main8">
+        <a href="https://profile.w3schools.com/sign-up"><img src="Screenshot 2024-11-03 171005.png" alt=""
+                style="width: 300px;"></a>
+        <div>
+            <h1 style="font-size: 50px;">My Learning</h1>
+            <h4 style="width:250px;padding-left: 10px;font-size: 13px;padding: 10px;">Track your progress with
+                our free "My Learning" program.</h4>
+            <h4 style="font-size: 13px;">Log in to your account, and start earning points!</h4>
+            <a href="https://profile.w3schools.com/sign-up"><button type="submit"
+                    style="border: 1px solid #04aa6d;background-color: #04AA6d;width: 200px;cursor: pointer;padding: 10px;border-radius: 100px;color: white;">Sign
+                    Up for Free</button></a>
+        </div>
+    </div>
+    <div class="main9">
+        <h1 style="color: white;font-size: 35px;">Become a Plus User</h1>
+        <h3 style="color: #FFC0C7;">And unlock powerful features:</h3>
+        <div style="color: white;font-size: smaller;padding: 10px;">
+            <p># Browse W3Schools without ads</p>
+            <p># Build and host Websites</p>
+            <p># Get extra credits</p>
+            <p># Priority support</p>
+        </div>
+        <a href="https://www.w3schools.com/plus/index.php" style="padding: 10px;"><button type="submit"
+                style="border: 1px solid #04aa6d;background-color: #04AA6d;width: 200px;cursor: pointer;padding: 10px;border-radius: 100px;color: white;">Learn
+                More</button></a>
+    </div>
+    <div class="main10">
+        <h1 style="font-size:60px ;">Color Picker</h1>
+        <h4>W3Schools' famous color picker:</h4>
+        <a href="https://www.w3schools.com/colors/colors_picker.asp"><img src="colorpicker.jpg" alt=""
+                style="width: 200px;"></a>
+    </div>
+    <div class="main11">
+        <h1 style="font-family: cursive;">Code Game</h1>
+        <h2 style="font-family: cursive;">Help the Lynx collect pine cones!</h2>
+        <img src="w3lynx_200.jpg" alt="" style="display: block;padding-left: 500px;margin: 10px;width: 100px;">
+        <a href="https://www.w3schools.com/codegame/index.html" ><button type="submit"
+                style="border: 1px solid black;background-color: black;width: 200px;cursor: pointer;padding: 10px;border-radius: 100px;color: white;">Play
+                Game</button></a>
+
+    </div>
+    <div class="main12">
+        <h2 style="color: white;">Exercises and Quizzes</h2>
+        <h4 style="color: white;">Test your skills!</h4>
+        <div class="kdiv4">
+            <div class="mk10" style="border: 1px solid #04AA6d;background-color: #04AA6d;border-radius: 10px;">
+                <a href="https://www.w3schools.com/exercises/index.php" style="text-decoration: none;color: white;cursor: pointer;"><h2>Exercises</h2></a>
+            </div>
+            <div class="mk10" style="border: 1px solid #Fff4a3;background-color: #Fff4a3;border-radius: 10px;">
+                <a href="https://www.w3schools.com/quiztest/default.asp" style="text-decoration: none;color: black;cursor: pointer;"><h2>Quizzes</h2></a>
+            </div>
+
+        </div>
+    </div>
+    <div class="main13">
+        <h2>How To Section</h2>
+        <h4>Code snippets for HTML, CSS and JavaScript</h4>
+        <h6>For example, how to create a slideshow:</h6>
+        <img src="Screenshot 2024-11-03 192326.png" alt="">
+
+    </div>
+    <footer>
+       
+
+    </footer>
+
+</body>
+
+</html>
